@@ -1,27 +1,28 @@
-full_name: International Sanskrit Computational Linguistics Symposium
-short_name: ISCLS
+full_name: Workshop on Inter-networking challenges for AI
+short_name: INET4AI
 description: > # this means to ignore newlines until "baseurl:"
-  ISCLS is a forum for original and unpublished research on various
-  aspects of Computational Linguistics and Digital Humanities related to
-  Sanskrit (Classical and Vedic), Prakrit, Pali, Buddhist Hybrid Sanskrit, etc.
+  This workshop, initiated in the Internet Research Task Force (IRTF)'s 
+  realm, aims at discussing the networking challenges raised by the 
+  distribution of generative AI workloads at a large scale. 
 
-email: iscls@outlook.com
+email: antoine@aft.network
 
-iteration: 7th
-full_title: 7th International Sanskrit Computational Linguistics Symposium
-short_title: 7th ISCLS 2024
+iteration: 1st
+full_title: 1st Workshop on Inter-networking challenges for AI, colocated with CoNEXT'25
+short_title: 1st INET4AI 2025
 
-year: 2024
-date: February 15-17, 2024
+year: 2025
+date: December 5, 2025
 
-location: Auroville, Puducherry
-country: India
+location: HKUST, Hong Kong
+country: China
 
-logo_path: ./assets/images/7th_iscls_logo_name.png
+# TODO change logo path
+logo_path: ./assets/images/INET4AI.jpg
 
 # if show_logo is false, show_title: false has no effect
 show_logo: true
-show_title: false
+show_title: true
 
 slideshow:
   - id: 0
