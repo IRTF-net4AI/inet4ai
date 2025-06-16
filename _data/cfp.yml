@@ -5,17 +5,17 @@ description: >
   While the industry is actively pursuing an effort to scale up AI systems, it 
   becomes necessary to explore the use of scaled-out, global distributed systems 
   to train or serve generative AI models. 
-
+  <br/><br/>
   Besides, services based on generative AI ask for stringent quality of service 
   levels to meet users demand. Meeting those requirements can be addressed by 
   using systems mixing powerful computing instances residing in cloud platforms 
   with localized edge platforms, using heterogeneous and distributed systems.
-
+  <br/><br/>
   Those questions may find a solution in approaches adopted by  federated 
   learning systems, in which models are trained among several stakeholders. Yet, 
   those systems also face scalability issues in dealing with models of a larger 
   size. 
-
+  <br/><br/>
   This workshop, initiated in the realm of the Internet Research Task Force 
   (IRTF), aims at discussing the networking challenges raised by the distribution 
   of generative AI workloads at a large scale. To that extend, we aim at 
