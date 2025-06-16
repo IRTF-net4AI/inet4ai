@@ -19,28 +19,30 @@ slide_id: 5
         <p>
             {{site.data.venue.address}}
         </p>
+        
+        {% if site.data.venue.accommodation %}
+            <h6 class="text-info">Accommodations</h6>
 
-        <h6 class="text-info">Accommodations</h6>
+            <p>
+                {{site.data.venue.accommodation.instructions}}
+            </p>
 
-        <p>
-            {{site.data.venue.accommodation.instructions}}
-        </p>
-
-        {% if site.data.venue.accommodation.hotels %}
-        <ul>
-            {% for hotel in site.data.venue.accommodation.hotels %}
-            <li><b>{{hotel.name}}</b> ({{hotel.address}})</li>
-            {% endfor %}
-        </ul>
+            {% if site.data.venue.accommodation.hotels %}
+                <ul>
+                    {% for hotel in site.data.venue.accommodation.hotels %}
+                        <li><b>{{hotel.name}}</b> ({{hotel.address}})</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
         {% endif %}
 
-        <h6 class="text-info">Directions</h6>
+        {% if site.data.venue.directions %}
+            <h6 class="text-info">Directions</h6>
+            <p>
+                {{site.data.venue.directions}}
+            </p>
 
-        <p>
-            {{site.data.venue.directions}}
-        </p>
-
-        <img class="img-fluid" src="{{site.data.venue.direction}}" alt="direction">
-
+            <img class="img-fluid" src="{{site.data.venue.direction}}" alt="direction">
+        {% endif %}
     </div>
 </div>
