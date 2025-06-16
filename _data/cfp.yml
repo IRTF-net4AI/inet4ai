@@ -21,7 +21,7 @@ description: >
   of generative AI workloads at a large scale. To that extend, we aim at 
   receiving contributions from academic researchers, machine learning system 
   developers or AI infrastructure providers on the following topics:
-submission: ./submission.html
+# submission: ./submission.html
 areas:
 - category: "Sanskrit Computational Linguistics: with Extensions to Related Ancient Indian Languages (Vedic, Pali, Prakrit)"
   topics:
