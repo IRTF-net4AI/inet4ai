@@ -23,7 +23,7 @@ description: >
   developers or AI infrastructure providers.
 # submission: ./submission.html
 areas:
-- topics:
+- category:
   - Future communication challenges related to the evolution of AI systems (Reasoning models, Mixture of Experts...);
   - Traffic characterization for distributed AI training or inference workloads;
   - Collective communications for the Internet;
