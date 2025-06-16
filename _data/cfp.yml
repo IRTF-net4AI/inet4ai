@@ -24,22 +24,43 @@ description: >
 # submission: ./submission.html
 areas:
 - category:
-  - Future communication challenges related to the evolution of AI systems (Reasoning models, Mixture of Experts...);
-  - Traffic characterization for distributed AI training or inference workloads;
-  - Collective communications for the Internet;
-  - Network protocols adaptations to scale out AI workloads;
-  - Domain-Specific transport protocols;
-  - Lossy and/or lossless transport protocols for distributed training and inference;
-  - Dynamic compression, quantization, and model sparsification;
-  - Congestion control methods for GPU-centric communications;
-  - Parallelism for heterogeneous and/or distributed AI systems;
-  - Impact on network infrastructure and protocols of in-network processing for large-scale distributed AI systems; 
-  - Large scale disaggregation of AI training or inference systems;
-  - Load balancing and routing for heterogeneous and/or distributed AI systems;
-  - KV-cache distribution, towards KV-centric networking;
-  - Federated learning;
-  - Security and privacy of distributed AI communications; 
-  - Encryption methods for distributed AI communications;
-  - Distributing AI workloads among heterogeneous nodes;
-  - Decentralized system designs for AI services;
-  - Edge-core distribution of AI workloads.
+  Future communication challenges related to the evolution of AI systems (Reasoning models, Mixture of Experts...);
+- category:
+  Traffic characterization for distributed AI training or inference workloads;
+- category:
+  Collective communications for the Internet;
+- category:
+  Network protocols adaptations to scale out AI workloads;
+- category:
+  Domain-Specific transport protocols;
+- category:
+  Lossy and/or lossless transport protocols for distributed training and inference;
+- category:
+  Dynamic compression, quantization, and model sparsification;
+- category:
+  Congestion control methods for GPU-centric communications;
+- category:
+  Parallelism for heterogeneous and/or distributed AI systems;
+- category:
+  Impact on network infrastructure and protocols of in-network processing for large-scale distributed AI systems; 
+- category:
+  Large scale disaggregation of AI training or inference systems;
+- category:
+  Load balancing and routing for heterogeneous and/or distributed AI systems;
+- category:
+  KV-cache distribution, towards KV-centric networking;
+- category:
+  Federated learning;
+- category:
+    Security and privacy of distributed AI communications; 
+- category:
+  Encryption methods for distributed AI communications;
+- category:
+  Distributing AI workloads among heterogeneous nodes;
+- category:
+  Decentralized system designs for AI services;
+- category:
+  Edge-core distribution of AI workloads.
+# - category:
+#   topics:
+#     - TODO
