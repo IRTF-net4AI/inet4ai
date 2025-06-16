@@ -9,13 +9,7 @@
     org: Huawei
     post: ""
     homepage: https://aft.network
-- title: Organising Chair
-  column: 1
-  members:
-  - name: Martin Gluckman
-    org: Sanskrit Research Institute
-    post: ""
-    homepage: ""
+
 - title: Technical Program Committee
   column: 2
 #   members:
@@ -24,6 +18,13 @@
 #     homepage: https://sanskrit.uohyd.ac.in/faculty/amba/
 
 # Other categories may include
+# - title: Organising Chair
+#   column: 1
+#   members:
+#   - name: NAME
+#     org: ORG
+#     post: ""
+#     homepage: ""
 # - title: Organising Chair
 #   column: 1
 #   members:
