@@ -42,14 +42,21 @@ slide_id: 2
         </p>
         <ul>
             {% for area in site.data.cfp.areas %}
-            <li><b>{{area.category}}</b></li>
-            {% if area.topics %}
-            <ul>
-                {% for topic in area.topics %}
-                <li>{{topic}}</li>
-                {% endfor %}
-            </ul>
-            {% endif %}
+                {% if area.category %}
+                    <li><b>{{area.category}}</b></li>
+                    {% if area.topics %}
+                    <ul>
+                        {% for topic in area.topics %}
+                        <li>{{topic}}</li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                {% else %}
+                    {% if area.topics %}
+                        {% for topic in area.topics %}
+                        <li>{{topic}}</li>
+                    {% endif %}
+                {% endif %}    
             {% endfor %}
         </ul>
         {% endif %}
