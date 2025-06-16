@@ -26,39 +26,19 @@ show_title: true
 
 slideshow:
   - id: 0
-    image_path: ./assets/images/slideshow/0-auroville-beach.jpg
-    description: Auroville Beach
+    image_path: ./assets/images/slideshow/0_HKUST.jpg
+    description: HKUST campus
     photographer_name: ""
     photographer_link: ""
     active: True
   - id: 1
-    image_path: ./assets/images/slideshow/1-matrimandir.jpeg
-    description: Matrimandir
+    image_path: ./assets/images/slideshow/1_HKUST.jpg
+    description: HKUST campus
     photographer_name: ""
     photographer_link: ""
   - id: 2
-    image_path: ./assets/images/slideshow/2-promenade-beach.webp
-    description: Promenade Beach
-    photographer_name: ""
-    photographer_link: ""
-  - id: 3
-    image_path: ./assets/images/slideshow/3-whitetown.jpg
-    description: White Town
-    photographer_name: ""
-    photographer_link: ""
-  - id: 4
-    image_path: ./assets/images/slideshow/4-manakula-vinayagar-temple.jpg
-    description: Manakula Vinayagar Temple
-    photographer_name: ""
-    photographer_link: ""
-  - id: 5
-    image_path: ./assets/images/slideshow/5-auroville.png
-    description: Auroville
-    photographer_name: ""
-    photographer_link: ""
-  - id: 6
-    image_path: ./assets/images/slideshow/6-mahabalipuram.jpg
-    description: Temple, Mahabalipuram
+    image_path: ./assets/images/slideshow/2_HKUST.jpg
+    description: HKUST campus
     photographer_name: ""
     photographer_link: ""
 navbar:
