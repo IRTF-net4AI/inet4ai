@@ -1,16 +1,16 @@
 address: |
-  <a href="https://www.unitypavilion.in/">Unity Pavilion</a>,
   HKUST Campus, Hong-Kong
   China
-directions: >
-  Google Maps Location: <a href="TBD">TBD</a>
-accommodation:
-  instructions: >
-    <p>
-      TBD
-    </p>
-
-  hotels:
-    # - name: TBA
-    #   address: TBA
-direction: ./assets/images/direction.png
+  
+# directions: >
+#   Google Maps Location: <a href="TBD">TBD</a>
+# accommodation:
+#   instructions: >
+#     <p>
+#       TBD
+#     </p>
+# 
+#   hotels:
+#     # - name: TBA
+#     #   address: TBA
+# direction: ./assets/images/direction.png
