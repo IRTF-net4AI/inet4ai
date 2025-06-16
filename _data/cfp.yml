@@ -20,26 +20,26 @@ description: >
   (IRTF), aims at discussing the networking challenges raised by the distribution 
   of generative AI workloads at a large scale. To that extend, we aim at 
   receiving contributions from academic researchers, machine learning system 
-  developers or AI infrastructure providers on the following topics:
+  developers or AI infrastructure providers.
 # submission: ./submission.html
 areas:
 - topics:
-    - Future communication challenges related to the evolution of AI systems (Reasoning models, Mixture of Experts...);
-    - Traffic characterization for distributed AI training or inference workloads;
-    - Collective communications for the Internet;
-    - Network protocols adaptations to scale out AI workloads;
-    - Domain-Specific transport protocols;
-    - Lossy and/or lossless transport protocols for distributed training and inference;
-    - Dynamic compression, quantization, and model sparsification;
-    - Congestion control methods for GPU-centric communications;
-    - Parallelism for heterogeneous and/or distributed AI systems;
-    - Impact on network infrastructure and protocols of in-network processing for large-scale distributed AI systems; 
-    - Large scale disaggregation of AI training or inference systems;
-    - Load balancing and routing for heterogeneous and/or distributed AI systems;
-    - KV-cache distribution, towards KV-centric networking;
-    - Federated learning;
-    - Security and privacy of distributed AI communications; 
-    - Encryption methods for distributed AI communications;
-    - Distributing AI workloads among heterogeneous nodes;
-    - Decentralized system designs for AI services;
-    - Edge-core distribution of AI workloads.
+  - Future communication challenges related to the evolution of AI systems (Reasoning models, Mixture of Experts...);
+  - Traffic characterization for distributed AI training or inference workloads;
+  - Collective communications for the Internet;
+  - Network protocols adaptations to scale out AI workloads;
+  - Domain-Specific transport protocols;
+  - Lossy and/or lossless transport protocols for distributed training and inference;
+  - Dynamic compression, quantization, and model sparsification;
+  - Congestion control methods for GPU-centric communications;
+  - Parallelism for heterogeneous and/or distributed AI systems;
+  - Impact on network infrastructure and protocols of in-network processing for large-scale distributed AI systems; 
+  - Large scale disaggregation of AI training or inference systems;
+  - Load balancing and routing for heterogeneous and/or distributed AI systems;
+  - KV-cache distribution, towards KV-centric networking;
+  - Federated learning;
+  - Security and privacy of distributed AI communications; 
+  - Encryption methods for distributed AI communications;
+  - Distributing AI workloads among heterogeneous nodes;
+  - Decentralized system designs for AI services;
+  - Edge-core distribution of AI workloads.
