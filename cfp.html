@@ -29,7 +29,14 @@ slide_id: 2
         {% include card-important-dates.html %}
 
         <div class="conference-text">
-            {% include contact-us.html %}
+            <h5>Contact</h5>
+            <p class="text-left">
+                If you have any problems or questions about your paper's submission, please contact us via e-mail at:
+                <a href="mailto:{{ site.data.submission.email }}">
+                    <i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i>
+                    {{ site.data.submission.email }}
+                </a>
+            </p>
         </div>
     </div>
     <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6 conference-text">
