@@ -92,15 +92,15 @@ deadlines:
 #     text: Submission deadline
 #     pass_due: True
 #     strike_through: False
-  - date: 2025-07-15
+  - date: 2025-07-28
     text: Paper submissions deadline
     pass_due: False
     strike_through: False 
-  - date: 2025-09-05
+  - date: 2025-09-12
     text: Paper acceptance notification
     pass_due: False
     strike_through: False 
-  - date: 2025-10-02
+  - date: 2025-10-08
     text: Camera ready due
     pass_due: False
     strike_through: False 
