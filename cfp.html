@@ -13,18 +13,14 @@ slide_id: 2
 
             {% if site.data.cfp.submission %}
                 <p>
-                    You are requested to submit your research paper using the {{site.data.submission.portal}}:
+                    Submitted papers must be at most six (6) pages long, excluding references and appendices, in two-column 10pt ACM format. 
+                    Authors of accepted submissions are expected to present and discuss their work at the workshop. 
+                    All submissions will be peer-reviewed, and the review process will be double-blind. 
+                    Per the anonymity guidelines, please prepare your paper in a way that preserves the anonymity of the authors. 
+                    No information will be shared with third parties.
+                </p>
+                    Please submit your paper using the {{site.data.submission.portal}}:
                     <a href="{{site.data.submission.url}}">{{site.data.submission.url}}</a>.
-                </p>
-                <p>
-                    The submissions must conform to the <a href="{{site.data.cfp.submission}}">Submission Guidelines</a>,
-                    and must not exceed <b>{{site.data.submission.pagelimits[0].limit}}</b> pages including text, figures and   references.
-                    The submissions should include the title, abstract, and names and affiliations of all authors.
-                </p>
-
-                <p>
-                    To prepare your submission, please use the LaTeX source files
-                    listed on the website, and follow the instructions provided.
                 </p>
             {% endif %}
         </div>
