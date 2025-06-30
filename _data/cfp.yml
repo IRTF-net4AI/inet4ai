@@ -21,7 +21,7 @@ description: >
   of generative AI workloads at a large scale. To that extend, we aim at 
   receiving contributions from academic researchers, machine learning system 
   developers or AI infrastructure providers.
-# submission: ./submission.html
+submission: ./submission.html
 areas:
 - topics:
   - Future communication challenges related to the evolution of AI systems (Reasoning models, Mixture of Experts...);
