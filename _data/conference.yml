@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   realm, aims at discussing the networking challenges raised by the 
   distribution of generative AI workloads at a large scale. 
 
-email: antoine@aft.network
+email: chairs@inet4ai.org
 
 iteration: 1st
 full_title: 1st Workshop on Inter-networking challenges for AI, colocated with CoNEXT'25
