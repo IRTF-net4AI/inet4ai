@@ -11,10 +11,10 @@ review_mode: 0
 # 0: double blind
 # 1: single blind
 
-pagelimits:
-   - type: paper
-     name: Paper
-     limit: six (6)
+pagelimits: six (6)
+#   - type: paper
+#     name: Paper
+#     limit: six (6)
 #   - type: demo
 #     name: Demonstration
 #     limit: 2
