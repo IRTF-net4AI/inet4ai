@@ -12,11 +12,45 @@
 
 - title: Technical Program Committee
   column: 2
-#   members:
-#   - name: Amba Kulkarni
-#     org: University of Hyderabad, Hyderabad, India
-#     homepage: https://sanskrit.uohyd.ac.in/faculty/amba/
-
+  members:
+  - name: Giuseppe Aceto
+    org: University of Napoli Federico II
+    homepage: http://wpage.unina.it/giuseppe.aceto/
+  - name: Vamsi Addanki
+    org: TU Berlin
+    homepage: https://www.vamsiaddanki.net/
+  - name: Gianni Antichi
+    org: Politecnico di Milano / Queen Mary University London
+    homepage: https://gianniantichi.github.io/
+  - name: Mario Baldi
+    org: NVidia
+    homepage: https://staff.polito.it/mario.baldi/
+  - name: Alessandro Cornacchia
+    org: King Abdullah University of Science and Technology
+    homepage: https://sands.kaust.edu.sa/authors/alessandro-cornacchia/
+  - name: Daniele De Sensi
+    org: Sapienza University of Rome
+    homepage: https://danieledesensi.github.io/
+  - name: Massimo Gallo
+    org: Huawei
+    homepage: https://gallomassimo.github.io/
+  - name: Dongsu Han
+    org: Korea Advanced Institute of Science & Technology
+    homepage: https://ina.kaist.ac.kr/team/dongsuh
+  - name: Paolo Medagliani
+    org: Huawei
+  - name: David Oran
+    org: Network Systems Research and Design
+    homepage: https://datatracker.ietf.org/person/daveoran@orandom.net
+  - name: Valerio Persico
+    org: University of Napoli Federico II
+    homepage: http://wpage.unina.it/valerio.persico/
+  - name: Ahmed M. A. Sayed
+    org: Queen Mary University of London
+    homepage: https://eecs.qmul.ac.uk/~ahmed/
+  - name: Massimo Tornatore
+    org: Politecnico di Milano
+    homepage: https://tornatore.faculty.polimi.it/
 # Other categories may include
 # - title: Organising Chair
 #   column: 1
