@@ -102,8 +102,8 @@ deadlines:
     strike_through: False 
   - date: 2025-09-12
     text: Paper acceptance notification
-    pass_due: True
-    strike_through: False 
+    pass_due: False
+    strike_through: True 
   - date: 2025-10-01
     text: Paper acceptance notification
     pass_due: False
