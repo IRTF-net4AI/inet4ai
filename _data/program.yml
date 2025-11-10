@@ -11,10 +11,8 @@
 #     url: https://www.youtube.com/watch?v=n1SPshTzcbg&ab_channel=SanskritResearchInstitute
 
 schedule:
- - day: "2025-12-01"
+ - date: "2025-12-01"
    dateReadable: "December 1st"
- - day: "2025-12-02"
-   dateReadable: "December 2nd"
    timeslots:
    - startTime: "8:50"
      endTime: "9:00"
