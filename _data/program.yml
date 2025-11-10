@@ -35,9 +35,11 @@ schedule:
     type: "service"
   - startTime: "11:00"
     endTime: "11:45"
-    title: "Invited talk: TBA"
+    title: "Invited talk"
     type: "presentation"
-    speaker: "TBA"
+    events:
+    - title: "TBA"
+      speakers: "TBA"
   - startTime: "12:00"
     endTime: "13:30"
     title: "Lunch"
