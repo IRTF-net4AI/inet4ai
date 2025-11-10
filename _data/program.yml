@@ -20,6 +20,16 @@ schedule:
   - startTime: "09:00"
     endTime: "09:10"
     title: "Close remarks"
+  - startTime: "13:30"
+    endTime: "15:00"
+    title: "SECURITY"
+    type: "presentation"
+    events:
+    - title: "Rethinking Information Sharing for Threat Intelligence"
+      speakers: "Aziz Mohaisen:University of Central Florida; Omar Al-Ibrahim:University of Central Florida; Charles Kamhoua:US Army Research Laboratory; Kevin Kwiat:Air Force Research Laboratory; Laurent L. Njilla:Air Force Research Laboratory"
+    - title: "Graphical passwords for older computer users"
+      speakers: "Nancy Carter:College of William & Mary; Ed Novak:Franklin & Marshall College; Cheng Li:College of William & Mary; Zhengrui Qin:Northwest Missouri State University; Qun Li:College of William & Mary; Jennifer A Stevens:College of William & Mary; Jiquo Yu:Qufu Normal University"
+
 #   - startTime: "9:00"
 #     endTime: "9:45"
 #     title: "AI4Net paper: Self-supervised Application-level Network Traffic Inversion"
