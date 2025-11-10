@@ -33,6 +33,15 @@ schedule:
     endTime: "11:00"
     title: "Coffee break"
     type: "service"
+  - startTime: "11:00"
+    endTime: "11:45"
+    title: "Invited talk: TBA"
+    type: "presentation"
+    speaker: "TBA"
+  - startTime: "12:00"
+    endTime: "13:30"
+    title: "Lunch"
+    type: "service"
 
  
 #     endTime: "9:45"
