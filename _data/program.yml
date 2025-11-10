@@ -34,16 +34,35 @@ schedule:
     title: "Coffee break"
     type: "service"
   - startTime: "11:00"
-    endTime: "11:45"
+    endTime: "12:00"
     title: "Invited talk"
     type: "presentation"
     events:
-    - title: "TBA"
-      speakers: "TBA"
+    - title: "Title TBA"
+      speakers: "Mingxing Zhang (Tsinghua University, Beijing)"
   - startTime: "12:00"
     endTime: "13:30"
     title: "Lunch"
     type: "service"
+- startTime: "13:30"
+    endTime: "14:15"
+    title: "Net4AI paper"
+    events:
+    - title: "You've got a few GPUs, now what?! --- Experimenting with a Nano-Cluster for Distributed Training of AI Models"
+      speakers: "Giuseppe Aceto (University of Napoli Federico II); Ciro Guida (University of Napoli Federico II); Valerio Persico (University of Napoli Federico II); Antonio Pescape (University of Napoli Federico II)"
+  - startTime: "14:15"
+    endTime: "15:30"
+    title: "Net4AI paper"
+    events:
+    - title: "SCALE-CCL: A Scalable Collective Communication Library for Wide-Area Distributed Training"
+      speakers: "Jiaheng Xiong (Politecnico di Milano); Qiaolun Zhang (Politecnico di Milano); Paolo Medagliani (Huawei); Michele Ferrero (Huawei); Xiaomin Liu (Shanghai Jiao Tong University); Meng Lian (Politecnico di Milano); Nicola Di Cicco (Politecnico di Milano); Baosen Zhao (Politecnico di Milano); Memedhe Ibrahimi (Politecnico di Milano); Francesco Musumeci (Politecnico di Milano); Massimo Tornatore (Politecnico di Milano)"
+  - startTime: "15:30"
+    endTime: "16:00"
+    title: "Panel discussion"
+    type: "presentation"
+    events:
+    - title: "Title TBA"
+      speakers: "Paper presenters"
 
  
 #     endTime: "9:45"
