@@ -1,5 +1,5 @@
 address: |
-  HKUST Campus, Hong-Kong
+  room 2465, HKUST Campus, Hong-Kong
   China
   
 # directions: >
@@ -13,4 +13,4 @@ address: |
 #   hotels:
 #     # - name: TBA
 #     #   address: TBA
-# direction: ./assets/images/direction.png
+direction: ./assets/images/Workshop-location.png
