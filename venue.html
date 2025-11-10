@@ -14,7 +14,7 @@ slide_id: 5
             {{site.data.conference.country}}
         </p>
 
-        <h6 class="text-info">Conference Location</h6>
+        <h5 class="text-info">Conference Location</h5>
 
         <p>
             {{site.data.venue.address}}
@@ -37,17 +37,20 @@ slide_id: 5
         {% endif %}
 
         {% if site.data.venue.directions %}
-            <h6 class="text-info">Directions</h6>
+            <h5 class="text-info">Directions</h5>
             <p>
                 {{site.data.venue.directions}}
             </p>
         
             <img class="img-fluid" src="{{site.data.venue.campus-picture}}" alt="campus-picture">
             <br/><br/>
-            Here is a map to the main conference's location: 
+        
+            <h6 class="text-info">Main conference location</h6>
+ 
             <img class="img-fluid" src="{{site.data.venue.campus-direction}}" alt="campus-direction">
             <br/><br/>
-            Here is a map to the workshop's location: 
+            <h6 class="text-info">Workshop location location</h6>
+
             <img class="img-fluid" src="{{site.data.venue.direction}}" alt="direction">
         {% endif %}
     </div>
