@@ -11,12 +11,12 @@ online:
     url: https://www.youtube.com/watch?v=n1SPshTzcbg&ab_channel=SanskritResearchInstitute
 
 schedule:
- - date: "2025-12-01"
-   dateReadable: "December 1st"
-   timeslots:
-   - startTime: "8:50"
-     endTime: "9:00"
-     title: "Open remarks"
+- date: "2025-12-01"
+  dateReadable: "December 1st"
+  timeslots:
+  - startTime: "8:50"
+    endTime: "9:00"
+    title: "Open remarks"
 #   - startTime: "9:00"
 #     endTime: "9:45"
 #     title: "AI4Net paper: Self-supervised Application-level Network Traffic Inversion"
