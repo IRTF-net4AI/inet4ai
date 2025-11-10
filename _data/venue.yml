@@ -14,4 +14,6 @@ directions: >
 #   hotels:
 #     # - name: TBA
 #     #   address: TBA
+campus-picture: ./assets/images/hkust.jpg
+campus-direction: ./assets/images/campus.png
 direction: ./assets/images/Workshop-location.png
