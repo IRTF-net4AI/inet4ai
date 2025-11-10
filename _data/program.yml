@@ -29,6 +29,10 @@ schedule:
     events:
     - title: "Latency-Optimal Load Balancing For Distributed MoE Inference"
       speakers: "Venkata Pavan Kumar Miriyala (AMD, Singapore); German Sviridov (AMD, Singapore); Bingxu Chen (AMD, Singapore); Haris Javaid (AMD, Singapore)"
+  - startTime: "10:30"
+    endTime: "11:00"
+    title: "Coffee break"
+    type: "service"
 
  
 #     endTime: "9:45"
