@@ -41,7 +41,28 @@ slide_id: 4
                     <h4 class="schedule-table-heading">{{ dateReadable }} - Day {{ forloop.index }}</h4>
                     <table class="table table-bordered table-striped table-hover table-responsive table-sm">
                     {% for timeslot in day.timeslots %}
-                        coucou
+                        <thead>
+                            <tr>
+                                <th class="bg-info text-center">
+                                    <div>{{timeslot.startTime}}-{{timeslot.endTime}}</div>
+                                </th>
+                                {% if timeslot.type == "service" %}
+                                    <th class="bg-warning text-center">
+                                        <p class="text-muted">{{timeslot.title}}</p>
+                                    </th>
+                                {% else %}
+                                    <th class="bg-primary text-center">
+                                        <h5>{{timeslot.title}}</h5>
+                                        {% if timeslot.speaker %}
+                                            <h5>{{timeslot.speaker}}</h5>
+                                        {% endif %}
+                                        {% if timeslot.chair %}
+                                            <h6>Session chair:{{timeslot.chair}}</h6>
+                                        {% endif %}
+                                    </th>
+                                {% endif %}
+                            </tr>
+                        </thead>
                     {% endfor %}
                     </table>
                 </div>
