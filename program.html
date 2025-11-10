@@ -63,6 +63,20 @@ slide_id: 4
                                 {% endif %}
                             </tr>
                         </thead>
+                        {% if timeslot.events %}
+                            <tbody>
+                            {% for event in timeslot.events %}
+                                <tr>
+                                    <td width="20%">
+                                    </td>
+                                    <td>
+                                        <p><b>{{event.title}}</b></p>
+                                        <p><i>{{event.speakers}}</i></p>
+                                    </td>
+                                </tr>
+                            {% endfor %}
+                            </tbody>
+                        {% endif %}
                     {% endfor %}
                     </table>
                 </div>
