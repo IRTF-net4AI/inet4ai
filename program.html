@@ -36,11 +36,15 @@ slide_id: 4
         
         {% if site.data.program.schedule != nil %}
             
-            {{ site.data.program.schedule }}
-        
             {% for day in site.data.program.schedule %}
-        
-                <br/>coucou
+                <div>
+                    <h4 class="schedule-table-heading">{{ dateReadable }} - Day {{ forloop.index }}</h4>
+                    <table class="table table-bordered table-striped table-hover table-responsive table-sm">
+                    {% for timeslot in day.timeslots %}
+                        coucou
+                    {% endfor %}
+                    </table>
+                </div>
         
             {% endfor %}
         
