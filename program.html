@@ -38,7 +38,7 @@ slide_id: 4
         {% for day in site.data.schedule %}
         Day : {{ day }}
         <div>
-            <h4 class="schedule-table-heading">{{ day.dateReadable }} - Day {{ forloop.index }}</h4>
+            <h4 class="schedule-table-heading">{{ dateReadable }} - Day {{ forloop.index }}</h4>
             <table class="table table-bordered table-striped table-hover table-responsive table-sm">
                 {% for timeslot in day.timeslots %}
                 <thead>
