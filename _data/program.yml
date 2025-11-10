@@ -44,7 +44,7 @@ schedule:
     endTime: "13:30"
     title: "Lunch"
     type: "service"
-- startTime: "13:30"
+  - startTime: "13:30"
     endTime: "14:15"
     title: "Net4AI paper"
     events:
@@ -64,7 +64,6 @@ schedule:
     - title: "Title TBA"
       speakers: "Paper presenters"
 
- 
 #     endTime: "9:45"
 #     title: "AI4Net paper: Self-supervised Application-level Network Traffic Inversion"
 #     speaker: "Darya Frolova:Huawei; Boris Nazarov:Huawei; Pavel Kisilev:Huawei"
