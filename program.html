@@ -34,9 +34,10 @@ slide_id: 4
         <h6 class="text-info">Schedule</h6>
         {% if site.data.program.schedule != nil %}
         TODO test
-        {{ site.data.program.schedule.day }}
+        {{ site.data.program.schedule }}
         {% for day in site.data.schedule %}
-        Day : {{ day }}
+        <br/>coucou
+        
         <div>
             <h4 class="schedule-table-heading">{{ dateReadable }} - Day {{ forloop.index }}</h4>
             <table class="table table-bordered table-striped table-hover table-responsive table-sm">
