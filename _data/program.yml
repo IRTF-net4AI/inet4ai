@@ -38,8 +38,13 @@ schedule:
     title: "Invited talk"
     type: "presentation"
     events:
-    - title: "Title TBA"
+    - title: "From Homogeneous to Disaggregated Architectures for Large Model Inference"
       speakers: "Mingxing Zhang (Tsinghua University, Beijing)"
+      abstract: "Traditional large model inference architectures have been predominantly GPU-centric, owing to their significant advantages in both compute power and bandwidth. 
+      However, as GPU utilization approaches its bottleneck, achieving further cost reductions requires exploring new optimization paths.<br/>
+      Leveraging the distinct advantages of different devices—such as various GPU models or even CPU/DRAM for their bandwidth or capacity-cost benefits—while fully exploiting 
+      the model's inherent properties like sequential dependencies and sparsity, is becoming essential. Designing adaptive computational architectures for this new paradigm has 
+      emerged as a critical direction for future co-innovation across algorithms, systems, and hardware. This talk will discuss the current progress and future plans in this area."
   - startTime: "12:00"
     endTime: "13:30"
     title: "Lunch"
