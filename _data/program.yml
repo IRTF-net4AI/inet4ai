@@ -22,13 +22,13 @@ schedule:
     title: "AI4Net paper"
     events:
     - title: "Self-supervised Application-level Network Traffic Inversion"
-      speakers: "Darya Frolova (Huawei); Boris Nazarov (Huawei); Pavel Kisilev (Huawei)"
+      speakers: "Darya Frolova (Huawei); Boris Nazarov (Huawei) and Pavel Kisilev (Huawei)"
   - startTime: "09:45"
     endTime: "10:30"
     title: "Net4AI paper"
     events:
     - title: "Latency-Optimal Load Balancing For Distributed MoE Inference"
-      speakers: "Venkata Pavan Kumar Miriyala (AMD, Singapore); German Sviridov (AMD, Singapore); Bingxu Chen (AMD, Singapore); Haris Javaid (AMD, Singapore)"
+      speakers: "Venkata Pavan Kumar Miriyala (AMD, Singapore); German Sviridov (AMD, Singapore); Bingxu Chen (AMD, Singapore) and Haris Javaid (AMD, Singapore)"
   - startTime: "10:30"
     endTime: "11:00"
     title: "Coffee break"
@@ -41,7 +41,7 @@ schedule:
     - title: "From Homogeneous to Disaggregated Architectures for Large Model Inference"
       speakers: "Mingxing Zhang (Tsinghua University, Beijing)"
       abstract: "Traditional large model inference architectures have been predominantly GPU-centric, owing to their significant advantages in both compute power and bandwidth. 
-      However, as GPU utilization approaches its bottleneck, achieving further cost reductions requires exploring new optimization paths.<br/>
+      However, as GPU utilization approaches its bottleneck, achieving further cost reductions requires exploring new optimization paths.<br/><br/>
       Leveraging the distinct advantages of different devices—such as various GPU models or even CPU/DRAM for their bandwidth or capacity-cost benefits—while fully exploiting 
       the model's inherent properties like sequential dependencies and sparsity, is becoming essential. Designing adaptive computational architectures for this new paradigm has 
       emerged as a critical direction for future co-innovation across algorithms, systems, and hardware. This talk will discuss the current progress and future plans in this area."
@@ -54,13 +54,13 @@ schedule:
     title: "Net4AI paper"
     events:
     - title: "You've got a few GPUs, now what?! --- Experimenting with a Nano-Cluster for Distributed Training of AI Models"
-      speakers: "Giuseppe Aceto (University of Napoli Federico II); Ciro Guida (University of Napoli Federico II); Valerio Persico (University of Napoli Federico II); Antonio Pescape (University of Napoli Federico II)"
+      speakers: "Giuseppe Aceto (University of Napoli Federico II); Ciro Guida (University of Napoli Federico II); Valerio Persico (University of Napoli Federico II) and Antonio Pescape (University of Napoli Federico II)"
   - startTime: "14:15"
     endTime: "15:30"
     title: "Net4AI paper"
     events:
     - title: "SCALE-CCL: A Scalable Collective Communication Library for Wide-Area Distributed Training"
-      speakers: "Jiaheng Xiong (Politecnico di Milano); Qiaolun Zhang (Politecnico di Milano); Paolo Medagliani (Huawei); Michele Ferrero (Huawei); Xiaomin Liu (Shanghai Jiao Tong University); Meng Lian (Politecnico di Milano); Nicola Di Cicco (Politecnico di Milano); Baosen Zhao (Politecnico di Milano); Memedhe Ibrahimi (Politecnico di Milano); Francesco Musumeci (Politecnico di Milano); Massimo Tornatore (Politecnico di Milano)"
+      speakers: "Jiaheng Xiong (Politecnico di Milano); Qiaolun Zhang (Politecnico di Milano); Paolo Medagliani (Huawei); Michele Ferrero (Huawei); Xiaomin Liu (Shanghai Jiao Tong University); Meng Lian (Politecnico di Milano); Nicola Di Cicco (Politecnico di Milano); Baosen Zhao (Politecnico di Milano); Memedhe Ibrahimi (Politecnico di Milano); Francesco Musumeci (Politecnico di Milano) and Massimo Tornatore (Politecnico di Milano)"
   - startTime: "15:30"
     endTime: "16:00"
     title: "Panel discussion"
