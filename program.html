@@ -1,4 +1,4 @@
----
+ by ---
 title: Program
 layout: page
 slide_id: 4
@@ -74,9 +74,12 @@ slide_id: 4
                                     </td>
                                     <td>
                                         <p><b>{{event.title}}</b></p>
-                                        <p><i>{{event.speakers}}</i></p>
+                                        <p><i>presented by {{event.speaker}}</i></p>
                                         {% if event.abstract %}
                                             <p>Abstract: {{event.abstract}}</p>
+                                        {% endif %}
+                                        {% if event.bio %}
+                                            <p>Speaker bio: {{event.bio}}</p>
                                         {% endif %}
                                     </td>
                                 </tr>
