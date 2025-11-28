@@ -41,6 +41,22 @@ slideshow:
     description: HKUST campus
     photographer_name: ""
     photographer_link: ""
+  - id: 3
+    image_path: ./assets/images/slideshow/0_HKUST.jpg
+    description: HKUST campus
+    photographer_name: ""
+    photographer_link: ""
+    active: True
+  - id: 4
+    image_path: ./assets/images/slideshow/1_HKUST.jpg
+    description: HKUST campus
+    photographer_name: ""
+    photographer_link: ""
+  - id: 5
+    image_path: ./assets/images/slideshow/2_HKUST.jpg
+    description: HKUST campus
+    photographer_name: ""
+    photographer_link: ""
 navbar:
   - id: 0
     label: Home
@@ -50,7 +66,7 @@ navbar:
     label: Organization
     path: /organization.html
     visible: True
-  - id: 0
+  - id: 2
     label: Calls for Papers
     visible: True
     children:
@@ -62,7 +78,7 @@ navbar:
       label: Call for Papers
       path: /cfp.html
       visible: True
-  - id: 0
+  - id: 3
     label: Submission
     visible: False
     children:
@@ -74,15 +90,15 @@ navbar:
       label: Accepted Papers
       path: /accepted.html
       visible: False
-  - id: 0
+  - id: 4
     label: Program
     path: /program.html
     visible: True
-  - id: 0
+  - id: 5
     label: Venue
     path: /venue.html
     visible: True
-  - id: 0
+  - id: 6
     label: Registration
     path: /registration.html
     visible: False
