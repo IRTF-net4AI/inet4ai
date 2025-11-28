@@ -70,7 +70,12 @@ slide_id: 4
                                     <td width="20%">
                                     </td>
                                     <td>
-                                        <p><b>{{event.title}}</b></p>
+                                        <p>
+											<b>{{event.title}}</b> 
+											{% if event.slides %}
+	                                        	<a href="{{ event.slides }}">(Presentation slides)</a>
+                                        	{% endif %}
+										</p>
                                         <p><i>Presented by {{event.speaker}}</i></p>
                                         {% if event.abstract %}
                                             <details>
@@ -83,9 +88,6 @@ slide_id: 4
                                               <summary><b>Speaker bio</b> (Click arrow to reveal)</summary>
                                               <p>{{event.bio}}</p>
                                             </details>
-                                        {% endif %}
-                                        {% if event.slides %}
-	                                        <span><a href="{{ event.slides }}">Presentation slides</a></span>
                                         {% endif %}
                                     </td>
                                 </tr>
