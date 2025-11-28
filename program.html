@@ -71,12 +71,12 @@ slide_id: 4
                                     </td>
                                     <td>
                                         <p><b>{{event.title}}</b></p>
-                                        <p><i>{{event.speaker}}</i></p>
+                                        <p><i>Presented by {{event.speaker}}</i></p>
                                         {% if event.abstract %}
-                                            <p>Abstract: {{event.abstract}}</p>
+                                            <p><b>Abstract:</b> {{event.abstract}}</p>
                                         {% endif %}
                                         {% if event.bio %}
-                                            <p>Speaker bio: {{event.bio}}</p>
+                                            <p><b>Speaker bio:</b> {{event.bio}}</p>
                                         {% endif %}
                                     </td>
                                 </tr>
