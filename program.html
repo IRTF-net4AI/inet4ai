@@ -84,6 +84,9 @@ slide_id: 4
                                               <p>{{event.bio}}</p>
                                             </details>
                                         {% endif %}
+                                        {% if event.slides %}
+	                                        <span><a href="{{ event.slides }}">Presentation slides</a></span>
+                                        {% endif %}
                                     </td>
                                 </tr>
                             {% endfor %}
