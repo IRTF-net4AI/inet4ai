@@ -50,7 +50,7 @@ navbar:
     label: Organization
     path: /organization.html
     visible: True
-  - id: 2
+  - id: 0
     label: Calls for Papers
     visible: True
     children:
@@ -62,7 +62,7 @@ navbar:
       label: Call for Papers
       path: /cfp.html
       visible: True
-  - id: 3
+  - id: 0
     label: Submission
     visible: False
     children:
@@ -74,15 +74,15 @@ navbar:
       label: Accepted Papers
       path: /accepted.html
       visible: False
-  - id: 4
+  - id: 0
     label: Program
     path: /program.html
     visible: True
-  - id: 5
+  - id: 0
     label: Venue
     path: /venue.html
     visible: True
-  - id: 6
+  - id: 0
     label: Registration
     path: /registration.html
     visible: False
