@@ -1,4 +1,4 @@
- by ---
+---
 title: Program
 layout: page
 slide_id: 4
@@ -56,6 +56,9 @@ slide_id: 4
                                 {% else %}
                                     <th class="bg-primary text-center">
                                         <h5>{{timeslot.title}}</h5>
+                                        {% if timeslot.speaker %}
+                                            <h5>{{timeslot.speaker}}</h5>
+                                        {% endif %}
                                         {% if timeslot.chair %}
                                             <h6>Session chair:{{timeslot.chair}}</h6>
                                         {% endif %}
@@ -71,12 +74,9 @@ slide_id: 4
                                     </td>
                                     <td>
                                         <p><b>{{event.title}}</b></p>
-                                        <p><i>presented by {{event.speaker}}</i></p>
+                                        <p><i>{{event.speakers}}</i></p>
                                         {% if event.abstract %}
                                             <p>Abstract: {{event.abstract}}</p>
-                                        {% endif %}
-                                        {% if event.bio %}
-                                            <p>Speaker bio: {{event.bio}}</p>
                                         {% endif %}
                                     </td>
                                 </tr>
