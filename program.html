@@ -77,10 +77,12 @@ slide_id: 4
                                               <summary><b>Abstract</b> (Click arrow to reveal)</summary>
                                               <p>{{event.abstract}}</p>
                                             </details>
-                                            <p><b>Abstract:</b> {{event.abstract}}</p>
                                         {% endif %}
                                         {% if event.bio %}
-                                            <p><b>Speaker bio:</b> {{event.bio}}</p>
+                                            <details>
+                                              <summary><b>Speaker bio</b> (Click arrow to reveal)</summary>
+                                              <p>{{event.bio}}</p>
+                                            </details>
                                         {% endif %}
                                     </td>
                                 </tr>
