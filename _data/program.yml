@@ -41,11 +41,11 @@ schedule:
       bio: "Shaked Leibzirer is a research scientist at Huawei's Tel-Aviv research center, where he leads R&D in network performance optimization, real-time statistical simulation, and large language model–driven systems. His work spans algorithm design, lightweight task-specific fine-tuning, RAG systems, and the integration of LLMs into network engineering workflows, including a patented innovation in network reliability. Shaked holds an M.Sc. summa cum laude in Mathematics from the Technion, with research in random matrices and simplicial complexes, and has been recognized with multiple awards for both scientific excellence and innovation."
       slides: ./assets/slides/AI4Net_1.pdf
   - startTime: "10:25"
-    endTime: "10:40"
+    endTime: "10:45"
     title: "Coffee break"
     type: "service"
-  - startTime: "10:40"
-    endTime: "11:25"
+  - startTime: "10:45"
+    endTime: "11:30"
     title: "Net4AI paper"
     events:
     - title: "Latency-Optimal Load Balancing For Distributed MoE Inference"
@@ -55,8 +55,8 @@ schedule:
       Prior work addressed this issue by either employing auxiliary loss functions during training to encourage balanced token distribution or by dynamically replicating or reallocating experts across devices during inference. The latter approach can easily adapt to varying workloads, but leads to high data movement overheads that can impact end-to-end latencies and throughput.<br/><br/>
       In this work, we address this issue of high data movement overheads by proposing a novel latency-optimal algorithm for expert replication and reallocation. Our approach is capable of achieving up to a 12.5% reduction in MoE execution latency over naive expert assignment and enables us to load balance 2× more frequently compared to existing approaches in the literature."
       bio: "German Sviridov received his PhD from Politecnico di Torino and he is currently a Staff Researcher at AMD Singapore. His research interests revolve around data center networking and systems for AI."
-  - startTime: "11:25"
-    endTime: "12:25"
+  - startTime: "11:30"
+    endTime: "12:30"
     title: "Invited talk"
     type: "presentation"
     events:
