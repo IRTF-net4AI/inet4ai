@@ -31,6 +31,11 @@ slide_id: 4
             {% endif %}
         </p>
         {% endif %}
+		
+		{% if site.data.program.notes %}
+			<h6 class="text-info">Live notes</h6>
+			During the workshop, we encourage you to write your questions or remarks in the collaborative markdown linked <a href="{{site.data.program.notes.url}}">here</a>. 
+		{% endif %}
         
         <h6 class="text-info">Schedule</h6>
         Please note that the workshop will take place in Hong-Kong, where the timezone is HKT (Hong Kong Time) or UTC/GMT +8 hours. <br/>
