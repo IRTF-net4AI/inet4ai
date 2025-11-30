@@ -72,6 +72,9 @@ slide_id: 4
                                     <td>
                                         <p>
 											<b>{{event.title}}</b> 
+											{% if event.paper %}
+	                                        	<a href="{{ event.paper }}">(Link to article)</a>
+                                        	{% endif %}
 											{% if event.slides %}
 	                                        	<a href="{{ event.slides }}">(Presentation slides)</a>
                                         	{% endif %}
