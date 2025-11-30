@@ -14,6 +14,9 @@
 #  record: false
 #  url: https://hkust-gz-edu-cn.zoom.us/j/93515738063?pwd=alQZnxBIelgzeqoZW3LPC1b9V8V2q5.1
 
+notes:
+  url: https://hackmd.io/oDJDnLFQR8-SJMhaMHU5dQ?both
+
 schedule:
 - date: "2025-12-01"
   dateReadable: "December 1st"
