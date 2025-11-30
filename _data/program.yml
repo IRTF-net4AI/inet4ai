@@ -109,6 +109,7 @@ schedule:
       speaker: "Wenjia Wei (Huawei, Nanjing)"
       abstract: "UnifiedBus (UB) serves as a high-performance interconnect protocol specifically designed for SuperPod networks, unifying IO, memory access, and communication. To empower the academic community to explore innovations in architecture, protocols, and algorithms within this framework, we have introduced five open innovation platforms. In this talk, we present these platforms in detail: the UB Simulation Platform, UB Protocol Verification Platform, Scale-Up Prototype Platform, SuperPod Networking Innovation Platform, and Scale-Out Prototype Platform. By making these tools accessible for rapid verification and experimentation, our goal is to foster an open ecosystem for collaborative research and mutual success in next-generation networking."
       bio: "Wenjia Wei received his Ph.D. degree in information and communication engineering from University of Science and Technology of China (USTC), in 2020. He is currently an Technical Expert at Huawei Technologies. His main interests include Network Modeling and Simulation."
+      slides: ./assets/slides/Inv_Talk_3.pdf
   - startTime: "16:40"
     endTime: "17:00"
     title: "Wrap-up discussion"
