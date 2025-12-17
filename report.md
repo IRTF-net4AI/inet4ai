@@ -50,11 +50,11 @@ During the Q&A, German Sviridov clarified that the presented load balancing meth
 
 In this presentation, Jiaheng Xiong, first-year Ph.D. student at Politecnico di Milano, introduced the audience to Scale-CCL, a scalable Collective Communication Library for wide-area distributed training. 
 
-![ScaleCCL Topology](https://irtf-net4ai.github.io/inet4ai/assets/images/report/Net4AI_2_1.png "ScaleCCL Topology"){: style="width: 80%; align=center;"}
+![ScaleCCL Topology](https://irtf-net4ai.github.io/inet4ai/assets/images/report/Net4AI_2_1.png "ScaleCCL Topology"){: width="100%"}
 
 Scale-CCL aims at being used in training clusters spanning multiple datacenters. Indeed, with the increase in size of large language models, training such models require and increasing amount of (processing) power that cannot be provided in a single datacenter easily. While some recent solutions to adapt collective communications library to a distributed WAN context adopt global optimization techniques, such as Integer Linear Programming (ILP, see previous presentation), to improve communication efficiency, these methods assume static topologies and full network visibility. Such assumptions do not stand in WAN environments, which are characterized by link variability, limited observability, and dynamic traffic patterns. 
 
-![ScaleCCL algorithm](https://irtf-net4ai.github.io/inet4ai/assets/images/report/Net4AI_2_2.png "ScaleCCL algorithm"){: width="80%"}
+![ScaleCCL algorithm](https://irtf-net4ai.github.io/inet4ai/assets/images/report/Net4AI_2_2.png "ScaleCCL algorithm"){: width="60%"}
 
 Scale-CCL is a WAN-aware collective communication library that synthesizes AllGather schedules across geo-distributed datacenters. Scale-CCL combines several techniques: subchunking (Data exchanged between nodes is divided in smaller chunks of data that are distributed independently), local queue–based decisions (each node transfers subchunk based on its own state and neighbor's known holdings), and a lightweight event-driven scheduler. This allows Scale-CCL to react to WAN variability while keeping schedule generation extremely fast. Experiments show that SCALE-CCL maintains near-optimal completion time while scaling to large topologies and high subchunk counts, making WAN-aware collective scheduling practical for modern cross-DC training.
 
