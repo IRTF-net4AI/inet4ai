@@ -1,4 +1,4 @@
---
+---
 title: Workshop report
 layout: page
 slide_id: 1
