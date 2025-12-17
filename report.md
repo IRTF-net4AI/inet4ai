@@ -50,7 +50,7 @@ During the Q&A, German Sviridov clarified that the presented load balancing meth
 
 In this presentation, Jiaheng Xiong, first-year Ph.D. student at Politecnico di Milano, introduced the audience to Scale-CCL, a scalable Collective Communication Library for wide-area distributed training. 
 
-![ScaleCCL Topology](https://irtf-net4ai.github.io/inet4ai/assets/images/report/Net4AI_2_1.png "ScaleCCL Topology"){: width="80%"}
+![ScaleCCL Topology](https://irtf-net4ai.github.io/inet4ai/assets/images/report/Net4AI_2_1.png "ScaleCCL Topology"){: .align-center style="width: 80%;"}
 
 Scale-CCL aims at being used in training clusters spanning multiple datacenters. Indeed, with the increase in size of large language models, training such models require and increasing amount of (processing) power that cannot be provided in a single datacenter easily. While some recent solutions to adapt collective communications library to a distributed WAN context adopt global optimization techniques, such as Integer Linear Programming (ILP, see previous presentation), to improve communication efficiency, these methods assume static topologies and full network visibility. Such assumptions do not stand in WAN environments, which are characterized by link variability, limited observability, and dynamic traffic patterns. 
 
