@@ -54,7 +54,7 @@ In this presentation, Jiaheng Xiong, first-year Ph.D. student at Politecnico di 
 
 Scale-CCL aims at being used in training clusters spanning multiple datacenters. Indeed, with the increase in size of large language models, training such models require and increasing amount of (processing) power that cannot be provided in a single datacenter easily. While some recent solutions to adapt collective communications library to a distributed WAN context adopt global optimization techniques, such as Integer Linear Programming (ILP, see previous presentation), to improve communication efficiency, these methods assume static topologies and full network visibility. Such assumptions do not stand in WAN environments, which are characterized by link variability, limited observability, and dynamic traffic patterns. 
 
-![ScaleCCL algorithm](https://irtf-net4ai.github.io/inet4ai/assets/images/report/Net4AI_2_2.png "ScaleCCL algorithm")
+![ScaleCCL algorithm](https://irtf-net4ai.github.io/inet4ai/assets/images/report/Net4AI_2_2.png "ScaleCCL algorithm"){: width="80%"}
 
 Scale-CCL is a WAN-aware collective communication library that synthesizes AllGather schedules across geo-distributed datacenters. Scale-CCL combines several techniques: subchunking (Data exchanged between nodes is divided in smaller chunks of data that are distributed independently), local queue–based decisions (each node transfers subchunk based on its own state and neighbor's known holdings), and a lightweight event-driven scheduler. This allows Scale-CCL to react to WAN variability while keeping schedule generation extremely fast. Experiments show that SCALE-CCL maintains near-optimal completion time while scaling to large topologies and high subchunk counts, making WAN-aware collective scheduling practical for modern cross-DC training.
 
@@ -88,15 +88,15 @@ AI workloads, together with cloud computing, is driving unprecedented demand for
 
 To overcome those challenges, Uno, a unified system for both inter- and intra-datacenter environments, was designed. It is constituted with UnoCC, a transport protocol for rapid congestion reaction and fair rate control, and UnoRC, a load-balancing scheme that combines erasure coding and adaptive routing. 
 
-![Uno features](https://irtf-net4ai.github.io/inet4ai/assets/images/report/Inv_Talk_1_1.png "Uno features")
+![Uno features](https://irtf-net4ai.github.io/inet4ai/assets/images/report/Inv_Talk_1_1.png "Uno features"){: width="80%"}
 
 UnoCC combines the use of Explicit Congestion Notification inside a datacenter with phantom queues, i.e. virtual queues with arbitrary sizes that mimic the behavior of physical queues, to match the high Bandwidth-Delay products of the inter-DC connections regardless of the physical queue capacity. 
 
-![UnoCC](https://irtf-net4ai.github.io/inet4ai/assets/images/report/Inv_Talk_1_2.png "UnoCC")
+![UnoCC](https://irtf-net4ai.github.io/inet4ai/assets/images/report/Inv_Talk_1_2.png "UnoCC"){: width="80%"}
 
 UnoRC, on the other hand, is using erasure coding to recover from packet losses without having to re-transmit packets with a sub-flow load balancing strategy taking advantage of the multiple paths connecting datacenters together to improve the reliability of the inter-datacenter connections. 
 
-![UnoRC](https://irtf-net4ai.github.io/inet4ai/assets/images/report/Inv_Talk_1_3.png "UnoRC")
+![UnoRC](https://irtf-net4ai.github.io/inet4ai/assets/images/report/Inv_Talk_1_3.png "UnoRC"){: width="80%"}
 
 Evaluation results in a simulated environment show that Uno significantly improves the completion times of both inter- and intra-datacenter flows compared to state-of-the-art methods such as Gemini.
 
