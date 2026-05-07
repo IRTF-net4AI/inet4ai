@@ -103,7 +103,7 @@ Given that our topics of interest are addressed by several research teams in the
 
 We organized a first edition of the INet4AI workshop last year during ACM CoNEXT'25. This first edition took the form of a full day workshop, during which 4 workshop papers were presented, with 3 invited talks and a wrap-up discussion to conclude the day. The workshop was well attended, with roughly 50 persons in the audience throughout the day.
 
-As mentioned in the *Statement of interest*, this workshop is participating in a wider initiative to bridge the IETF / IRTF community with the research community that participates in the CoNEXT conference in order to foster exchanges and new work. In that regard, we organized an open session on the workshop's topics during the last IETF meeting [TODO reference], following several side meetings organized in previous IETF meetings [TODO Side meetings reference]. 
+As mentioned in the *Statement of interest*, this workshop is participating in a wider initiative to bridge the IETF / IRTF community with the research community that participates in the CoNEXT conference in order to foster exchanges and new work. In that regard, we organized an open session on the workshop's topics during the last IETF meeting [4], following several side meetings organized in previous IETF meetings such as [10]. 
 
 We hope that we will be able to organize this second edition to continue this dialogue while we observe an acceleration of the pace of innovation in the generative and agentic AI ecosystem.   
 
@@ -137,3 +137,5 @@ Besides the CoNEXT community, we would like to publicize this workshop to other 
 8. 1st Workshop on Hot Topics in Distributed Machine Learning, https://hotdiml.github.io/HotDiML2025/
 
 9. ICLR 2025 Workshop on Modularity for Collaborative, Decentralized, and Continual Deep Learning (MCDC), https://sites.google.com/view/mcdc2025/home
+
+10. IETF 123 side meeting on (Inter) Networking for AI, https://github.com/IRTF-net4AI/IETF123-sidemeeting
