@@ -58,7 +58,21 @@ The fundamental question underlying those changes is how generative AI systems i
 * Encryption methods for distributed AI communications;
 * Distributing AI workloads among heterogeneous nodes;
 * Decentralized system designs for AI services;
-* Edge-core distribution of AI workloads.
+* Edge-core distribution of AI workloads;
+* Thin-waist architectures for agent networking;
+* Minimal interoperability substrates for agent ecosystems;
+* Agent naming, identity, addressing, and persistence;
+* Capability-based discovery and routing;
+* Intent-driven, goal-oriented, and receiver-driven communication;
+* Transport protocols for agent-to-agent and agent-to-service interaction;
+* Multi-party, streaming, pub/sub, and asynchronous agent communication;
+* Naming and discovery across heterogeneous agent platforms;
+* Network support for dynamic agent instantiation and migration;
+* Edge, cloud, and local-inference architectures for agent ecosystems;
+* Measurement, benchmarking, and performance evaluation of agent systems;
+* Scalability, robustness, and failure handling in large-scale agent ecosystems;
+* Real-world deployments, case studies, privacy, governance, and regulation.
+
 
 ## 4. Candidate workshop chairs and TPC
 
@@ -77,7 +91,7 @@ The fundamental question underlying those changes is how generative AI systems i
     * Massimo Gallo (Huawei)
     * Dongsu Han (Korea Advanced Institute of Science & Technology)
     * Paolo Medagliani (Huawei)
-    * Marie-José Montpetit (Slices-RI)
+    * Marie-José Montpetit (???)
     * David Oran (Network Systems Research and Design)
     * Valerio Persico (University of Napoli Federico II)
     * Ahmed M. A. Sayed (Queen Mary University of London)
