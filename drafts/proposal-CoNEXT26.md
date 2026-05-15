@@ -18,13 +18,11 @@ While training large models becomes an increasingly specialized venture led by a
 
 At the same time, questions arise related to the governance and operational models of generative AI services, in particular due to data ownership and trustworthiness aspects. While some of those concerns can find a solution in federated learning systems, in which data ownership can be retained, and models are trained among several stakeholders, the increasing use of (agentic) AI systems in the operation of critical services requires a proper tracing authentication and authorization system to frame generative AI's scope of work and enforce AI agents' accountability and traceability. 
 
-[TODO text to introduce Reliability engineering challenges in Networking for AI?] 
-
 Those three observations have raised numerous questions in the Internet community in general, and in the IRTF (Internet Research Task Force) [2] in particular, to determine how the necessary distribution of generative AI systems beyond the realm of single datacenters will impact the Internet at large. With this workshop, our goal is to continue the dialogue between academic researchers, network operators, cloud service providers and generative AI services developers that was initiated with the first edition of the workshop [3] and which continued in the IRTF community [4] to examine how to address inter-networking challenges of AI workloads operation at scale. 
 
 ### 2.2. Comparison with existing workshops on related topics
 
-In the academic community, several workshops have been organized with either a focus on networking challenges of AI (e.g. NAIC [5]), on addressing the computing requirements of LLMs and GNNs (e.g. LG-ARC [6], EuroMLSys [7]) or on distributed and federated machine learning systems (e.g. HotDiML [8], MCDC [9]). The workshop we are proposing differs from those workshops in its intention to explore the challenges raised by the distribution of AI workloads at a large, global scale and by the interaction between those workloads and typical Internet traffic or applications. Those issues are not yet given a proper platform in our view, and we would like this workshop to be a venue to discuss about those topics.
+In the academic community, several workshops have been organized with either a focus on networking challenges of AI (*e.g.* NAIC [5]), on addressing the computing requirements of LLMs and GNNs (*e.g.* LG-ARC [6], EuroMLSys [7]) or on distributed and federated machine learning systems (*e.g.* HotDiML [8], MCDC [9]). The workshop we are proposing differs from those workshops in its intention to explore the challenges raised by the distribution of AI workloads at a large, global scale and by the interaction between those workloads and typical Internet traffic or applications. Those issues are not yet given a proper platform in our view, and we would like this workshop to be a venue to discuss about those topics.
 
 At last, one of the topics we would like to address in the workshop, decentralized federated learning, can be seen as a follow-up to a discussion about the Internet's decentralization which has been the topic of several workshop organized during CoNEXT in the past years and co-chaired by Dirk Kutscher. Those workshops were very well received and sparkled interesting discussions in the Internet community.
 
@@ -77,30 +75,32 @@ The fundamental question underlying those changes is how generative AI systems i
 ## 4. Candidate workshop chairs and TPC
 
 * Workshop chairs
-  * Dirk Kutscher (HKUST (GZ), IRTF chair)
-  * Antoine Fressancourt (Huawei)
+  * Dirk Kutscher *(HKUST (GZ), IRTF chair)* (https://dirk-kutscher.info/about/)
+  * Antoine Fressancourt *(Huawei)* (https://aft.network/)
 * Tentative TPC members
   * From 1st Workshop's TPC
-    * Giuseppe Aceto (University of Napoli Federico II)
-    * Vamsi Addanki (Purdue University)
-    * Gianni Antichi (Politecnico di Milano / Queen Mary University London)
-    * Mario Baldi (NVidia)
-    * Alessandro Cornacchia (King Abdullah University of Science and Technology)
-    * Daniele De Sensi (Sapienza University of Rome)
-    * Jesus Escudero Sahuquillo (University of Castilla La Mancha)
-    * Massimo Gallo (Huawei)
-    * Dongsu Han (Korea Advanced Institute of Science & Technology)
-    * Paolo Medagliani (Huawei)
-    * Marie-José Montpetit (???)
-    * David Oran (Network Systems Research and Design)
-    * Valerio Persico (University of Napoli Federico II)
-    * Ahmed M. A. Sayed (Queen Mary University of London)
-    * Massimo Tornatore (Politecnico di Milano)
+    * Giuseppe Aceto *(University of Napoli Federico II)*
+    * Vamsi Addanki *(Purdue University)*
+    * Gianni Antichi *(Politecnico di Milano / Queen Mary University London)*
+    * Mario Baldi *(NVidia)*
+    * Alessandro Cornacchia *(King Abdullah University of Science and Technology)*
+    * Daniele De Sensi *(Sapienza University of Rome)*
+    * Jesus Escudero Sahuquillo *(University of Castilla La Mancha)*
+    * Massimo Gallo *(Huawei)*
+    * Dongsu Han *(Korea Advanced Institute of Science & Technology)*
+    * Paolo Medagliani *(Huawei)*
+    * Marie-José Montpetit *(Independent)*
+    * David Oran *(Network Systems Research and Design)*
+    * Valerio Persico *(University of Napoli Federico II)*
+    * Ahmed M. A. Sayed *(Queen Mary University of London)*
+    * Massimo Tornatore *(Politecnico di Milano)*
   * Additional TPC members (tentative)
-    * Hong Xu (HKUST)
-    * Binhang Yuan (HKUST)
-    * Mingxing Zhang (Tsinghua University)
+    * Hong Xu *(HKUST)*
+    * Binhang Yuan *(HKUST)*
+    * Mingxing Zhang *(Tsinghua University)*
   
+<div style="page-break-after: always"></div>
+
 ## 5. Workshop format
 
 We would like to have a full day workshop. Besides the workshop submissions we will receive, we would like to allow complementary research works addressing the major challenges we highlighted in the *Statement of interest* that were presented in other venues to be heard in the form of invited talks. Then we would like to foster discussions between the workshop attendees in panels or round tables. 
@@ -121,16 +121,18 @@ As mentioned in the *Statement of interest*, this workshop is participating in a
 
 We hope that we will be able to organize this second edition to continue this dialogue while we observe an acceleration of the pace of innovation in the generative and agentic AI ecosystem.   
 
+<div style="page-break-after: always"></div>
+
 ## 10. Potential community / Interdisciplinarity
 
 Besides the CoNEXT community, we would like to publicize this workshop to other researchers who are or will be facing the issues we want to address, namely:  
 
-* the (distributed) machine learning systems community;
-* the IRTF community;
-* open source developers of AI training or inference engines such as vLLM, LMCache or Ray;
-* the High-Performance Computing (HPC) research community;
-* generative AI researchers and/or language model designers;
-* the micro-electronics research community.
+* The (distributed) machine learning systems community;
+* The IRTF community;
+* Open source developers of AI training or inference engines such as vLLM, LMCache or Ray;
+* The High-Performance Computing (HPC) research community;
+* Generative AI researchers and/or language model designers;
+* The micro-electronics research community.
 
 ## 11. References
 
