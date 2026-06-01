@@ -14,11 +14,12 @@ slide_id: 5
             {{site.data.conference.country}}
         </p>
 
-        <h5 class="text-info">Conference Location</h5>
-
-        <p>
-            {{site.data.venue.address}}
-        </p>
+        {% if site.data.venue.address %}
+            <h5 class="text-info">Conference Location</h5>
+            <p>
+                {{site.data.venue.address}}
+            </p>
+        {% endif %}
         
         {% if site.data.venue.accommodation %}
             <h6 class="text-info">Accommodations</h6>
