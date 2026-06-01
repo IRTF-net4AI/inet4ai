@@ -26,34 +26,34 @@ show_title: true
 
 slideshow:
   - id: 0
-    image_path: ./assets/images/slideshow/0_HKUST.jpg
+    image_path: ./assets/images/slideshow/Utrecht-University_01.jpg
     description: Utrecht university campus
     photographer_name: ""
     photographer_link: ""
     active: True
   - id: 1
-    image_path: ./assets/images/slideshow/1_HKUST.jpg
+    image_path: ./assets/images/slideshow/Utrecht-University_02.jpg
     description: Utrecht university campus
     photographer_name: ""
     photographer_link: ""
   - id: 2
-    image_path: ./assets/images/slideshow/2_HKUST.jpg
+    image_path: ./assets/images/slideshow/Utrecht-University_03.jpg
     description: Utrecht university campus
     photographer_name: ""
     photographer_link: ""
   - id: 3
-    image_path: ./assets/images/slideshow/0_HKUST.jpg
+    image_path: ./assets/images/slideshow/Utrecht-University_04.jpg
     description: Utrecht university campus
     photographer_name: ""
     photographer_link: ""
     active: True
   - id: 4
-    image_path: ./assets/images/slideshow/1_HKUST.jpg
+    image_path: ./assets/images/slideshow/Utrecht-University_01.jpg
     description: Utrecht university campus
     photographer_name: ""
     photographer_link: ""
   - id: 5
-    image_path: ./assets/images/slideshow/2_HKUST.jpg
+    image_path: ./assets/images/slideshow/Utrecht-University_02.jpg
     description: Utrecht university campus
     photographer_name: ""
     photographer_link: ""
