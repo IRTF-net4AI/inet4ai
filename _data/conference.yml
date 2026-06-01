@@ -137,5 +137,5 @@ deadlines:
 # 
 previous_iterations:
  - name: 1st INET4AI Workshop, 2025
-    year: 2025
-    url: https://irtf-net4ai.github.io/2025.inet4AI/
+   year: 2025
+   url: https://irtf-net4ai.github.io/2025.inet4AI/
