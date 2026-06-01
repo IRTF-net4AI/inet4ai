@@ -80,24 +80,8 @@
         <!--navbar-->
         <div class="mynav col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
             <nav class="nav navbar-dark bg-dark navbar-expand-lg">
-                {% if site.data.conference.previous_iterations %}
-                <a class="navbar-brand ml-4 dropdown-toggle" href="#"
-                    title="Previous Iterations of {{site.data.conference.short_name}}" role="button"
-                    data-toggle="dropdown" aria-expanded="false">
-                    {{site.data.conference.short_name}}
-                </a>
-                <div class="dropdown-menu">
-                    <span class="dropdown-item"></span>
-                    {% for previous in site.data.conference.previous_iterations %}
-                    <a class="dropdown-item text-secondary" href="{{previous.url}}" target="_blank" rel="noopener">
-                        {{previous.name}}, {{previous.year}}
-                    </a>
-                    {% endfor %}
-                </div>
-                {% else %}
                 <a class="navbar-brand ml-4" href="#">{{site.data.conference.short_name}}</a>
-                {% endif %}
-
+                
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-with-toggle"
                     aria-controls="navbar-with-toggle" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -144,6 +128,23 @@
                         {% endif %}
                         {% endif %}
                         {% endfor %}
+                        {% if site.data.conference.previous_iterations %}
+                            <li class="nav-item dropdown">
+                                <a class="navbar-brand ml-4 dropdown-toggle" href="#"
+                                    title="Previous Iterations of {{site.data.conference.short_name}}" role="button"
+                                    data-toggle="dropdown" aria-expanded="false">
+                                    {{site.data.conference.short_name}}
+                                </a>
+                                <div class="dropdown-menu">
+                                    <span class="dropdown-item"></span>
+                                    {% for previous in site.data.conference.previous_iterations %}
+                                        <a class="dropdown-item text-secondary" href="{{previous.url}}" target="_blank" rel="noopener">
+                                            {{previous.name}}, {{previous.year}}
+                                        </a>
+                                    {% endfor %}
+                                </div>
+                            </li>
+                        {% endif %}         
                     </ul>
 
                     <ul class="navbar-nav ml-auto">
