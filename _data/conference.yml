@@ -67,14 +67,10 @@ navbar:
     path: /organization.html
     visible: True
   - id: 2
-    label: Calls for Papers
+    label: Calls
     visible: True
     children:
     - id: 1
-      label: Call for Demos
-      path: /cfd.html
-      visible: False
-    - id: 2
       label: Call for Papers
       path: /cfp.html
       visible: True
@@ -100,6 +96,7 @@ navbar:
     visible: True
   - id: 6
     label: Past editions
+    visible: True
     children:
     - id: 1
       label: 2025
