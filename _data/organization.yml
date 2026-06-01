@@ -28,9 +28,9 @@
 #  - name: Alessandro Cornacchia
 #    org: King Abdullah University of Science and Technology
 #    homepage: https://sands.kaust.edu.sa/authors/alessandro-cornacchia/
-#  - name: Daniele De Sensi
-#    org: Sapienza University of Rome
-#    homepage: https://danieledesensi.github.io/
+ - name: Daniele De Sensi
+   org: Sapienza University of Rome
+   homepage: https://danieledesensi.github.io/
 #  - name: Jesus Escudero Sahuquillo
 #    org: University of Castilla La Mancha
 #    homepage: https://hipineb.i3a.info/jescudero/  
@@ -50,9 +50,9 @@
 #  - name: Valerio Persico
 #    org: University of Napoli Federico II
 #    homepage: http://wpage.unina.it/valerio.persico/
-#  - name: Ahmed M. A. Sayed
-#    org: Queen Mary University of London
-#    homepage: https://eecs.qmul.ac.uk/~ahmed/
+ - name: Ahmed M. A. Sayed
+   org: Queen Mary University of London
+   homepage: https://eecs.qmul.ac.uk/~ahmed/
 #  - name: Massimo Tornatore
 #    org: Politecnico di Milano
 #    homepage: https://tornatore.faculty.polimi.it/
