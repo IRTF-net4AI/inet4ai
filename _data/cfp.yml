@@ -40,9 +40,7 @@ description: >
   operating distributed generative and/or agentic AI systems at a large 
   scale. This workshop, initiated in the realm of the Internet Research 
   Task Force (IRTF), aims at discussing different aspects of this 
-  question. To that extend, we aim at receiving contributions from 
-  academic researchers, machine learning system developers or AI 
-  infrastructure providers on the following topics:
+  question. 
 submission: ./submission.html
 areas:
 - topics:
