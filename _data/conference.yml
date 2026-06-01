@@ -108,12 +108,16 @@ deadlines:
 #     text: Submission deadline
 #     pass_due: True
 #     strike_through: False
+  - date: 2026-07-07
+    text: Workshop paper abstract registration deadline
+    pass_due: False
+    strike_through: False
   - date: 2026-07-14
-    text: Paper submissions deadline
+    text: Workshop paper submissions deadline
     pass_due: False
     strike_through: False
   - date: 2026-08-31
-    text: Paper acceptance notification
+    text: Workshop paper acceptance notification
     pass_due: False
     strike_through: False 
   - date: 2026-09-30
