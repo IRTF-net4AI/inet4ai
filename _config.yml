@@ -55,7 +55,7 @@ exclude:
   - .github/
   - .gitignore
 
-timezone: HKT
+timezone: CET
 google_analytics: ""
 
 plugins:
