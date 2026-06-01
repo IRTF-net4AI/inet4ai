@@ -132,6 +132,6 @@ deadlines:
 #   twitter_link:
 # 
 previous_iterations:
- - name: 1st INET4AI Workshop, 2025
+ - name: 1st INET4AI Workshop
    year: 2025
    url: https://irtf-net4ai.github.io/2025.inet4AI/
