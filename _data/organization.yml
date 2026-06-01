@@ -42,8 +42,8 @@
 #    homepage: https://ina.kaist.ac.kr/team/dongsuh
   - name: Paolo Medagliani
     org: Huawei
-#  - name: Marie-José Montpetit
-#    org: INRIA / Slices-RI
+  - name: Marie-José Montpetit
+    homepage: https://datatracker.ietf.org/person/marie@mjmontpetit.com
 #  - name: David Oran
 #    org: Network Systems Research and Design
 #    homepage: https://datatracker.ietf.org/person/daveoran@orandom.net
@@ -53,9 +53,9 @@
  - name: Ahmed M. A. Sayed
    org: Queen Mary University of London
    homepage: https://eecs.qmul.ac.uk/~ahmed/
-#  - name: Massimo Tornatore
-#    org: Politecnico di Milano
-#    homepage: https://tornatore.faculty.polimi.it/
+ - name: Massimo Tornatore
+   org: Politecnico di Milano
+   homepage: https://tornatore.faculty.polimi.it/
 
 # Other categories may include
 # - title: Organising Chair
