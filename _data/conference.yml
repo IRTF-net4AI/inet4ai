@@ -135,7 +135,7 @@ deadlines:
 #   facebook_link:
 #   twitter_link:
 # 
-# previous_iterations:
-#  - name: 6th ISCLS
-#     year: 2019
-#     url: https://iscls.github.io/iscls2019/
+previous_iterations:
+ - name: 1st INET4AI Workshop, 2025
+    year: 2025
+    url: https://irtf-net4ai.github.io/2025.inet4AI/
