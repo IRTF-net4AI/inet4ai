@@ -3,19 +3,19 @@ short_name: INET4AI
 description: > # this means to ignore newlines until "baseurl:"
   This workshop, initiated in the Internet Research Task Force (IRTF)'s 
   realm, aims at discussing the networking challenges raised by the 
-  distribution of generative AI workloads at a large scale. 
+  distribution of generative and agentic AI workloads at a large scale. 
 
 email: chairs@inet4ai.org
 
-iteration: 1st
-full_title: 1st Workshop on Inter-networking challenges for AI, collocated with CoNEXT'25
-short_title: 1st INET4AI 2025
+iteration: 2nd
+full_title: 2nd Workshop on Inter-networking challenges for AI, collocated with CoNEXT'26
+short_title: 2nd INET4AI 2026
 
-year: 2025
-date: December 1, 2025
+year: 2026
+date: December 2026 (TBA)
 
-location: HKUST, Hong Kong
-country: China
+location: Utrecht
+country: The Netherlands
 
 # TODO change logo path
 logo_path: ./assets/images/INET4AI.jpg
@@ -27,34 +27,34 @@ show_title: true
 slideshow:
   - id: 0
     image_path: ./assets/images/slideshow/0_HKUST.jpg
-    description: HKUST campus
+    description: Utrecht university campus
     photographer_name: ""
     photographer_link: ""
     active: True
   - id: 1
     image_path: ./assets/images/slideshow/1_HKUST.jpg
-    description: HKUST campus
+    description: Utrecht university campus
     photographer_name: ""
     photographer_link: ""
   - id: 2
     image_path: ./assets/images/slideshow/2_HKUST.jpg
-    description: HKUST campus
+    description: Utrecht university campus
     photographer_name: ""
     photographer_link: ""
   - id: 3
     image_path: ./assets/images/slideshow/0_HKUST.jpg
-    description: HKUST campus
+    description: Utrecht university campus
     photographer_name: ""
     photographer_link: ""
     active: True
   - id: 4
     image_path: ./assets/images/slideshow/1_HKUST.jpg
-    description: HKUST campus
+    description: Utrecht university campus
     photographer_name: ""
     photographer_link: ""
   - id: 5
     image_path: ./assets/images/slideshow/2_HKUST.jpg
-    description: HKUST campus
+    description: Utrecht university campus
     photographer_name: ""
     photographer_link: ""
 navbar:
@@ -108,23 +108,19 @@ deadlines:
 #     text: Submission deadline
 #     pass_due: True
 #     strike_through: False
-  - date: 2025-09-03
+  - date: 2026-07-14
     text: Paper submissions deadline
     pass_due: False
-    strike_through: True 
-  - date: 2025-09-12
-    text: Paper submissions deadline
-    pass_due: False
-    strike_through: False 
-  - date: 2025-10-01
+    strike_through: False
+  - date: 2026-08-31
     text: Paper acceptance notification
     pass_due: False
     strike_through: False 
-  - date: 2025-10-08
+  - date: 2026-09-30
     text: Camera ready due
     pass_due: False
     strike_through: False 
-  - date: 2025-10-16
+  - date: 2026-10-16
     text: Program available online
     pass_due: False
     strike_through: False 
