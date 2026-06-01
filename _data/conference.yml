@@ -94,14 +94,6 @@ navbar:
     label: Venue
     path: /venue.html
     visible: True
-  - id: 6
-    label: Past editions
-    visible: True
-    children:
-    - id: 1
-      label: 2025
-      path: "https://irtf-net4ai.github.io/2025.inet4AI/"
-      visible: True
 deadline_timezone: AoE
 deadlines:
 #   - date: 2023-10-03
