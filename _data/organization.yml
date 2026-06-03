@@ -48,9 +48,9 @@
   - name: David Oran
     org: Network Systems Research and Design
     homepage: https://datatracker.ietf.org/person/daveoran@orandom.net
-#  - name: Valerio Persico
-#    org: University of Napoli Federico II
-#    homepage: http://wpage.unina.it/valerio.persico/
+  - name: Valerio Persico
+    org: University of Napoli Federico II
+    homepage: http://wpage.unina.it/valerio.persico/
   - name: Ahmed M. A. Sayed
     org: Queen Mary University of London
     homepage: https://eecs.qmul.ac.uk/~ahmed/
