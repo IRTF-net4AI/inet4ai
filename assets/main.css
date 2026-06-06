@@ -1,6 +1,6 @@
 body {
     font-family: "Fira Sans", Arial, sans-serif !important;
-    background-color: #252525;
+    background-color: #e7e3ec;
 }
 
 .container {
@@ -141,9 +141,9 @@ body {
 }
 
 .navbar-dark .navbar-nav>li>a:hover {
-    color: #5393c5 !important;
+    color: #3d2b56 !important;
 }
 
 .navbar-dark .navbar-nav>.active {
-    color: #5393c5 !important;
+    color: #3d2b56 !important;
 }
