@@ -44,37 +44,16 @@ description: >
 submission: ./submission.html
 areas:
 - topics:
-  - Future communication challenges related to the evolution of AI systems (reasoning models, Mixture of Experts...);
   - Traffic characterization for distributed AI training or inference workloads;
   - Collective communications for the Internet;
-  - Network protocols adaptations to scale out AI workloads;
-  - Domain-Specific transport protocols;
-  - Lossy and/or lossless transport protocols for distributed training and inference;
-  - Dynamic compression, quantization, and model sparsification;
-  - Congestion control methods for GPU-centric communications;
-  - Parallelism for heterogeneous and/or distributed AI systems;
   - In-Network processing used in large scale and/or federated distributed AI systems; 
   - Large scale disaggregation of AI training or inference systems;
-  - Load balancing and routing for heterogeneous and/or distributed AI systems;
-  - KV-cache distribution, towards KV-centric networking;
   - Federated learning;
   - Security and privacy of distributed AI communications; 
-  - Encryption methods for distributed AI communications;
-  - Distributing AI workloads among heterogeneous nodes;
   - Decentralized system designs for AI services;
   - Edge-core distribution of AI workloads;
-  - Thin-waist architectures for agent networking;
-  - Minimal interoperability substrates for agent ecosystems;
-  - Agent naming, identity, addressing, and persistence;
-  - Capability-based discovery and routing;
-  - Intent-driven, goal-oriented, and receiver-driven communication;
-  - Transport protocols for agent-to-agent and agent-to-service interaction;
-  - Multi-party, streaming, pub/sub, and asynchronous agent communication;
-  - Naming and discovery across heterogeneous agent platforms;
-  - Network support for dynamic agent instantiation and migration;
-  - Edge, cloud, and local-inference architectures for agent ecosystems;
+  - Agentic networking and communications;
   - Measurement, benchmarking, and performance evaluation of agent systems;
-  - Scalability, robustness, and failure handling in large-scale agent ecosystems;
   - Real-world deployments, case studies, privacy, governance, and regulation.
 
 # - category: "Sanskrit Computational Linguistics: with Extensions to Related Ancient Indian Languages (Vedic, Pali, Prakrit)"
