@@ -17,8 +17,7 @@ description: >
   networking, distributed systems, machine learning systems, and AI infrastructure to 
   explore how AI changes the Internet — and how Internet architecture, protocols, and 
   measurement can enable scalable, trustworthy, and efficient distributed AI.
-  <br/><br/>
-  Topics of interest include, but are not limited to:
+  
 submission: ./submission.html
 areas:
 - topics:
