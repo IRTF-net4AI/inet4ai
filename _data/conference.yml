@@ -108,6 +108,18 @@ deadlines:
     text: Workshop paper submission deadline (extended)
     pass_due: False
     strike_through: False
+  - date: 2026-09-15
+    text: Workshop paper acceptance notification
+    pass_due: False
+    strike_through: False 
+  - date: 2026-09-30
+    text: Camera ready due
+    pass_due: False
+    strike_through: False 
+  - date: 2026-10-16
+    text: Program available online
+    pass_due: False
+    strike_through: False 
 
 previous_iterations:
  - name: 1st INET4AI Workshop
