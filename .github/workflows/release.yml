@@ -23,29 +23,22 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
-#   TEST previous version commented
-#     - name: Build Jekyll for GitHub Pages
-#       uses: actions/jekyll-build-pages@v1.0.7
-#       with:
-#         source: ./
-#         destination: ./_site
-    - name: Setup Ruby
-      # https://github.com/ruby/setup-ruby/releases/tag/v1.207.0
-      uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
-      with:
-        ruby-version: '3.1' # Not needed with a .ruby-version file
-        bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-        cache-version: 0 # Increment this number if you need to re-download cached gems
+
+    # TEST previous version commented
+    # - name: Build Jekyll for GitHub Pages
+    #   uses: actions/jekyll-build-pages@v1.0.7
+    #   with:
+    #       source: ./
+    #       destination: ./_site
+
     - name: Setup Pages
-      id: pages
       uses: actions/configure-pages@v5
     - name: Build with Jekyll
-      # Outputs to the './_site' directory by default
-      run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
-      env:
-        JEKYLL_ENV: production
-        ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
-    
+      uses: actions/jekyll-build-pages@v1
+      with:
+        source: ./
+        destination: ./_site
+      
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
 
@@ -61,6 +54,10 @@ jobs:
 
     runs-on: ubuntu-latest
     steps:
-    - name: Deploy GitHub Pages site
+#     - name: Deploy GitHub Pages site
+#       id: deployment
+#       uses: actions/deploy-pages@v4
+    steps:
+    - name: Deploy to GitHub Pages
       id: deployment
-      uses: actions/deploy-pages@v4
+      uses: actions/deploy-pages@v5
