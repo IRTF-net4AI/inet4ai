@@ -100,37 +100,7 @@ deadlines:
 #     text: Submission deadline
 #     pass_due: True
 #     strike_through: False
-  - date: 2026-07-14
-    text: Workshop paper submission deadline
-    pass_due: False
-    strike_through: True
-    - date: 2026-08-21
-    text: Workshop paper submission deadline (extended)
-    pass_due: False
-    strike_through: False
-  - date: 2026-09-15
-    text: Workshop paper acceptance notification
-    pass_due: False
-    strike_through: False 
-  - date: 2026-09-30
-    text: Camera ready due
-    pass_due: False
-    strike_through: False 
-  - date: 2026-10-16
-    text: Program available online
-    pass_due: False
-    strike_through: False 
 
-# Additional elements supported by the template
-# sponsors:
-#   - name: International Association of Sanskrit Studies
-#     logo_path: ./assets/images/sponsors/iass-logo.png
-#     url: https://www.sanskritassociation.org/ (optionnal)
-# 
-# social_media:
-#   facebook_link:
-#   twitter_link:
-# 
 previous_iterations:
  - name: 1st INET4AI Workshop
    year: 2025
