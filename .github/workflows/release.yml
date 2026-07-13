@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+  # Addition here: deploying from the action tab manually
+  workflow_dispatch:
 
 # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
 permissions:
@@ -11,9 +13,9 @@ permissions:
   pages: write      # to deploy to Pages
   id-token: write   # to verify the deployment originates from an appropriate source
 
-env:
-  JEKYLL_ENV: production
-  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
+# env:
+#   JEKYLL_ENV: production
+#   ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
 
 jobs:
   build:
@@ -22,11 +24,31 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
-    - name: Build Jekyll for GitHub Pages
-      uses: actions/jekyll-build-pages@v1.0.7
-      with:
-          source: ./
-          destination: ./_site
+    # TEST previous version commented
+    # - name: Build Jekyll for GitHub Pages
+    #   uses: actions/jekyll-build-pages@v1.0.7
+    #   with:
+    #       source: ./
+    #       destination: ./_site
+
+    # New version: 
+    - name: Setup Ruby
+        # https://github.com/ruby/setup-ruby/releases/tag/v1.207.0
+        uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
+        with:
+          ruby-version: '3.1' # Not needed with a .ruby-version file
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+          cache-version: 0 # Increment this number if you need to re-download cached gems
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+      - name: Build with Jekyll
+        # Outputs to the './_site' directory by default
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: production
+          ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
+
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
 
@@ -45,4 +67,3 @@ jobs:
     - name: Deploy GitHub Pages site
       id: deployment
       uses: actions/deploy-pages@v4
-
