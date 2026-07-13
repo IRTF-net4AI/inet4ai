@@ -105,7 +105,7 @@ deadlines:
     pass_due: False
     strike_through: True
     - date: 2026-08-21
-    text: Workshop paper submission deadline
+    text: Workshop paper submission deadline (extended)
     pass_due: False
     strike_through: False
   - date: 2026-09-15
