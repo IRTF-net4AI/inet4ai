@@ -100,6 +100,14 @@ deadlines:
 #     text: Submission deadline
 #     pass_due: True
 #     strike_through: False
+  - date: 2026-07-14
+    text: Workshop paper submission deadline
+    pass_due: False
+    strike_through: True
+  - date: 2026-08-21
+    text: Workshop paper submission deadline (extended)
+    pass_due: False
+    strike_through: False
 
 previous_iterations:
  - name: 1st INET4AI Workshop
