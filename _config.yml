@@ -54,6 +54,7 @@ exclude:
   - workflows/
   - .github/
   - .gitignore
+  - vendor
 
 timezone: CET
 google_analytics: ""
